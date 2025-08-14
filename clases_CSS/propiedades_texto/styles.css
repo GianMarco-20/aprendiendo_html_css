@@ -1,4 +1,18 @@
+h1 {
+    text-align:center
+}
 p {
     color:blue;
-    font-family: sans-serif; /* tipografia, sans - serif*/
+    font-family: sans-serif; /* tipografia, 'sans serif' */
+    /* puedo separar diferentes tipografias con , por si la primera no da, continuaria */
+    font-size: 13px; 
+    /* el tamaño promedio es font-size, que es 16 px*/
+    font-weight: 100;
+    /* grosor bold=700 (negrita) bolder=900*/
+    /*span, strong, en HTML para resaltar importancia*/
+    font-style: italic;
+    /*italic es cursiva = oblique 40deg*/
+    text-align: center;
+    /* a un lado, rigth, left, center*/
+
 }
