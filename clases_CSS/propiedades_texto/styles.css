@@ -7,12 +7,17 @@ p {
     /* puedo separar diferentes tipografias con , por si la primera no da, continuaria */
     font-size: 13px; 
     /* el tamaño promedio es font-size, que es 16 px*/
-    font-weight: 100;
+    font-weight: bold;
     /* grosor bold=700 (negrita) bolder=900*/
     /*span, strong, en HTML para resaltar importancia*/
     font-style: italic;
     /*italic es cursiva = oblique 40deg*/
     text-align: center;
     /* a un lado, rigth, left, center*/
-
+    /*text-align: justify; (que las letras empiecen y terminen igual; start = left; end = end (recomendado)*/
+}
+span{
+    color: purple;
+    text-decoration: line-through underline overline;
+    /*line-through tacha el texto, underline subrayado por abajo, overline por arriba (se pueden mezclar*/
 }
