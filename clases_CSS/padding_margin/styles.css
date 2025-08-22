@@ -1,0 +1,14 @@
+.formulario {
+    background-color: aquamarine;
+    padding: 20px 0 40px 10px;
+    /* padding: 20px(arriba) 0(derecha) 40px(abajo) 20px(izquierda); no es neceario darle al 0 alguna unidad*/
+    /*
+    paddin es un resumen de:
+    padding-top: separa el contenido del borde de arriba
+    padding-bottom: separa el contenido del borde de abajo
+    padding-left: separa el contenido del borde de la izquierda
+    padding-right: separa el contenido del borde de la derecha*/
+}
+.formulario_input{
+    padding: 20px;
+}
