@@ -1,0 +1,20 @@
+div {
+    background-color: red;
+    width: 100%;
+    /*largo*/
+    height: 50px;
+    /*ancho*/
+    text-align: center;
+    font-size: 13px;
+    margin: 5px;
+    }
+
+form{
+    width: 300px;
+    margin: 5px;
+}
+
+input{
+    width: 80%;
+    /*box-sizing: border-box; para el boton y esten del mismo tamaño*/
+}
