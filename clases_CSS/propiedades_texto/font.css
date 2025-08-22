@@ -1,0 +1,7 @@
+/* definir nuevos valores a una propiedad de tipografia que luego podra existir en el styles.css*/
+@font-face {
+    font-family: "Gian Marco tipografia" ;
+    src: url() format("truetype");
+    font-weight: 100;
+}
+/*forma de configurarlo*/
