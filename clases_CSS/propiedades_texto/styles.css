@@ -2,6 +2,7 @@ h1 {
     text-align:center
 }
 p {
+    /*propiedades de texto*/
     color:blue;
     font-family: sans-serif; /* tipografia, 'sans serif' */
     /* puedo separar diferentes tipografias con , por si la primera no da, continuaria */
@@ -15,9 +16,27 @@ p {
     text-align: center;
     /* a un lado, rigth, left, center*/
     /*text-align: justify; (que las letras empiecen y terminen igual; start = left; end = end (recomendado)*/
+    letter-spacing: 1px;
+    /*Espacio entre las letras*/
+    /*text-transform: uppercase -> Todo el texto en mayuscula, lowercase -> Todo el texto en minuscula, capitalize -> cada palabra nueva es una minuscula,  full-width -> en ancho completo*/
+    /*text-shadow: 0px 0px 4px colorX; sombras*/
+    word-wrap: break-word; /*corta pero respetando las palabras*/
+    /*word-break: break-all; corta pero no importa separar las palabras*/
+
+    /*propiedad entre las lineas*/
+    line-height:2;
+    /*Espacio de alto entre las lineas, pueden ser decimales, porcentajes*/
+
 }
+
 span{
     color: purple;
     text-decoration: line-through underline overline;
-    /*line-through tacha el texto, underline subrayado por abajo, overline por arriba (se pueden mezclar*/
+    /*line-through tacha el texto, underline subrayado por abajo, overline por arriba (se pueden mezclar, blink (ya no se usa. descartalo, none = nada)*/
 }
+
+a{
+    text-decoration: none;
+    /* Mayormente none, es para quitar el subrayado por defecto de los enlaces;*/
+}
+
